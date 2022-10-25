@@ -1,0 +1,33 @@
+.Amazon-link{
+  color: rgb(0, 113, 133);
+  cursor: pointer;
+}
+
+.Nike-header{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Price-stock-body{
+  font-weight: bold;
+  color: rgb(0, 118, 0);
+}
+
+.Add-to-Cart-button{
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 32px;
+  width: 110px;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.Buy-now-button{
+  background-color: rgb(255, 165, 28);
+  border: none;
+  height: 32px;
+  width: 110px;
+  border-radius: 16px;
+  cursor: pointer;
+}
