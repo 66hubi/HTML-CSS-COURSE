@@ -1,0 +1,27 @@
+p{
+  font-family: arial;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.current-price{
+  font-size: 25px;
+}
+
+.currency{
+  color: rgb(119, 118, 118);
+  font-size: 15px;
+}
+
+.change-today{
+  color: rgb(57, 130, 57);
+}
+
+.after-hours{
+  color: rgb(119, 118, 118)
+}
+
+.difference{
+  color: rgb(196, 45, 45);
+}

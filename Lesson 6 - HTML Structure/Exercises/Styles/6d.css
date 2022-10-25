@@ -1,0 +1,20 @@
+p{
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.Make{
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.CTA{
+  font-size: 18px;
+}
+
+.Action{
+  text-decoration: underline;
+}
