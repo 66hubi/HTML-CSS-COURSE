@@ -1,0 +1,28 @@
+.parent-flexbox{
+  display: flex;
+  height: 60px;
+}
+.pink{
+  background-color: lightpink;
+  width: 100px
+}
+
+.blue{
+  background-color: lightblue;
+  width: 200px;
+}
+
+.section-2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2a{
+  background-color: black;
+  color: white;
+}      
+
+.row2b{
+  background-color: black;
+  color: white;
+}

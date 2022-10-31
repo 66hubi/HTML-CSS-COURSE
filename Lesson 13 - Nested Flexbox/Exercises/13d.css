@@ -1,0 +1,53 @@
+p{
+  font-family: arial;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.inbox{
+  width: 430px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
+  display: grid; 
+  row-gap: 10px; 
+
+}
+
+.header{
+  margin-left: 12px;
+  color: rgb(129, 129, 129);
+}
+
+.email-preview{
+  display: flex;
+  align-items: center;
+}
+
+.sender-pfp{
+  height: 60px;
+  border-radius: 30px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.preview-info{
+  display: grid;
+  row-gap: 5px;
+}
+
+.preview-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.preview-title, 
+.subject{
+  font-weight: bold;
+}
+
+.time-received,
+.email-content{
+  color: rgb(129, 129, 129);
+}
