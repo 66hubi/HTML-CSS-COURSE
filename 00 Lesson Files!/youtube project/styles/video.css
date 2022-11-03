@@ -31,7 +31,7 @@
 .thumbnail-row{
   margin-bottom: 12px;
   position: relative;
-
+  z-index: 0;
 }
 
 .video-author,
