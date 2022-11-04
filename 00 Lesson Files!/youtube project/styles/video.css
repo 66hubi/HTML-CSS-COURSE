@@ -4,32 +4,30 @@
   width: 100%;
 }
 
-.video-title{
-  margin-top: 0px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  margin-bottom: 12px;
-}
-
 .video-info-grid{
   display: grid;
   grid-template-columns: 50px 1fr;
 }
 
-.channel-picture{
-}
 
-.video-info{
+
+.video-info  .video-link{
+  font-family: roboto, arial;
+  text-decoration: none;
+  color: black;
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 .profile-picture{
-  width: 40px;
+  width: 36px;
   border-radius: 50px;
 }
 
 .thumbnail-row{
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position: relative;
   z-index: 0;
 }
@@ -41,6 +39,7 @@
 }
 
 .video-author{
+  margin-top: 10px;
   margin-bottom: 4px;
 }
 
@@ -55,8 +54,8 @@
   background-color: black;
   color: white;
   position: absolute;
-  right: 8px;
-  bottom: 10px;
+  right: 4px;
+  bottom: 11px;
   font-family: roboto, arial;
   font-size: 12px;
   font-weight: 500;
