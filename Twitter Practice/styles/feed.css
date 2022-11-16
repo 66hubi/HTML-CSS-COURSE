@@ -1,0 +1,61 @@
+.main{
+  width: 600px;
+  border-left: solid;
+  border-right: solid;
+  border-width: 1px;
+  border-color: rgb(82, 82, 82);
+  padding-left: 16px;
+  padding-right: 16px;
+} 
+
+.main-header{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.feed-header{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.top-tweets{
+  height: 18px;
+}
+
+.tweet-compose-container{
+  display: grid;
+  grid-template-columns: 70px 1fr;
+}
+
+
+.user-profile-picture{
+  width: 50px;
+  border-radius: 25px;
+}
+
+.tweet-media{
+  display: flex;
+  justify-content: space-between;
+}
+
+.media-icon{
+  height: 18px;
+}
+
+.tweet-button{
+  padding: 16px 16px;
+  background-color: rgb(0, 157, 255);
+  color: white;
+  border: none;
+  border-radius: 36px;
+  font-weight: bold;
+  font-size: 16px;
+}

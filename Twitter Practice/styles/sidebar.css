@@ -1,9 +1,9 @@
 .sidebar{
-  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
   font-size: 20px;
   display: grid;
   row-gap: 100px;
-  width: 260px;
+  width: 255px;
   align-items: right;
   margin-left: 135px;
 }
@@ -14,7 +14,7 @@
   row-gap: 33px;
 }
 
-.tweet-button{
+.sidebar-tweet-button{
   padding: 16px 16px;
   width: 225px;
   background-color: rgb(0, 157, 255);

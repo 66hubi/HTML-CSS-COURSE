@@ -1,4 +1,10 @@
 body{
+  margin: 0px;
   background-color: rgb(24, 36, 48);
   color: white;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: solid;
+  border-width: 1px;
+  border-color: rgb(82, 82, 82);
 }
