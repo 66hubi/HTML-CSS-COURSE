@@ -3,14 +3,15 @@
   font-size: 20px;
   display: grid;
   row-gap: 100px;
-  width: 390px;
+  width: 260px;
   align-items: right;
+  margin-left: 135px;
 }
 
 .navigation{
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 20px;
+  row-gap: 33px;
 }
 
 .tweet-button{
@@ -22,12 +23,15 @@
   border-radius: 36px;
   font-weight: bold;
   font-size: 17px;
+  margin-top: 5px;
 }
 
 .account{
   display: flex;
-  grid-template-columns: 50px, 1fr;
-  max-width: 390px;
+  width: 260px;
+  position: fixed;
+  bottom: 25px;
+
 }
 
 .account-profile-picture{
@@ -37,11 +41,13 @@
 }
 
 .account-info-container{
+  width: 260px;
   display: flex;
   align-items: center;
   font-size: 15px;
   justify-content: space-between;
 }
+
 
 .user-name{
   font-weight: bold;
@@ -54,4 +60,18 @@
 .account-more{
   font-size: 9px;
   font-weight: bold;
+}
+
+.twitter-logo{
+  width: 35px;
+}
+
+.sidebar-icon{
+  width: 25px;
+  margin-right: 15px;
+}
+
+.nav-section{
+  display: flex;
+  align-items: center;
 }
