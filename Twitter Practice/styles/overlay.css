@@ -1,0 +1,30 @@
+.overlay{
+  position: fixed;
+  top: 0px;
+  border-top: solid;
+  border-width: 1px;
+  border-color: rgb(82, 82, 82);
+}
+
+.feed-header{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(24, 36, 48);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+  top: 0px;
+}
+
+.home{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.top-tweets{
+  height: 18px;
+}

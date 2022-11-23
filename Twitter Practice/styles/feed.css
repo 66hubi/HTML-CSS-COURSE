@@ -1,9 +1,9 @@
-.main{
+.feed{
   width: 600px;
-  border-left: solid;
-  border-right: solid;
   border-width: 1px;
   border-color: rgb(82, 82, 82);
+  margin-left: 405px;
+  margin-top: 20px;
  
 } 
 
@@ -16,13 +16,6 @@
   padding-bottom: 13px;
   padding-left: 16px;
   padding-right: 16px;
-}
-
-.feed-header{
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .home{
@@ -89,12 +82,16 @@
   font-size: 15px;
 }
 
-.tweet-1{
+.tweet-1, .advertisement{
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 5px;
+  padding-bottom: 12px;
   display: grid;
   grid-template-columns: 60px 1fr;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(82, 82, 82);
 }
 .tweet-username{
   font-weight: bold;
@@ -104,17 +101,19 @@
 .tweet-container{
   padding-top: 10px;
   display: grid;
-  row-gap: 10px;
 }
 
 .handle{
   font-weight: normal;
   color:rgb(150, 156, 163);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .tweet-content{
+  margin-top: 5px;
   font-size: 15px;
+  line-height: 20px;
+  padding-right: 5px;
 }
 
 .tweet-header{
@@ -126,6 +125,7 @@
 
 .tweet-more{
   font-size: 10px;
+  color: rgb(150, 156, 163)
 }
 
 .tweet-actions{
@@ -138,4 +138,9 @@
 
 .tweet-actions-icon{
   height: 18px;
+}
+
+.ad-media{
+  height: 500px;
+  border-radius: 10px;
 }

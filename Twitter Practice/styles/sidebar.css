@@ -6,6 +6,9 @@
   width: 255px;
   align-items: right;
   margin-left: 135px;
+  height: 500px;
+  position: fixed;
+  top: 0px;
 }
 
 .navigation{
