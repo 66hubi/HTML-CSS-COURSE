@@ -103,6 +103,8 @@
 
 .tweet-container{
   padding-top: 10px;
+  display: grid;
+  row-gap: 10px;
 }
 
 .handle{
@@ -117,5 +119,23 @@
 
 .tweet-header{
   margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.tweet-more{
+  font-size: 10px;
+}
+
+.tweet-actions{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  margin-top: 15px;
+
+}
+
+.tweet-actions-icon{
+  height: 18px;
+}
