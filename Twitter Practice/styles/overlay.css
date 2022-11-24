@@ -1,5 +1,5 @@
 .overlay{
-  position: fixed;
+  position: sticky;
   top: 0px;
   bottom: 0px;
   border-top: solid;
@@ -7,13 +7,12 @@
   border-left: solid;
   border-width: 1px;
   border-color: rgb(82, 82, 82);
-  width: 600px;
-  margin-left: 405px;
+  width: 598px;
 
 }
 
 .feed-header{
-  width: 567px;
+  width: 560px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,9 +22,7 @@
   padding-right: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
-  position: fixed;
   top: 0px;
-  left: 406px;
 }
 
 .home{
