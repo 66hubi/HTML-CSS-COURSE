@@ -1,23 +1,31 @@
 .overlay{
   position: fixed;
   top: 0px;
+  bottom: 0px;
   border-top: solid;
+  border-right: solid;
+  border-left: solid;
   border-width: 1px;
   border-color: rgb(82, 82, 82);
+  width: 600px;
+  margin-left: 405px;
+
 }
 
 .feed-header{
-  width: 600px;
+  width: 567px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(24, 36, 48);
+  opacity: 0.98;
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   position: fixed;
   top: 0px;
+  left: 406px;
 }
 
 .home{
@@ -27,4 +35,6 @@
 
 .top-tweets{
   height: 18px;
+
 }
+
