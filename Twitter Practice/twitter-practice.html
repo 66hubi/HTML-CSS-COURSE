@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="stylesheet" href="styles/feed.css">
     <link rel="stylesheet" href="styles/news.css">
-    <link rel="stylesheet" href="styles/recommendations.css">
+    <link rel="stylesheet" href="styles/resources.css">
     <link rel="stylesheet" href="styles/overlay.css">
     <!--Insert font later-->
 
@@ -201,13 +201,45 @@
     
     </main>
 
-    <!--Begin left section-->
+    <!--Begin resources section-->
 
     <div class="resources">
-      <!--change search-bar to input-->
-      <input type="search" class="search-bar">
+      <div class="search-header-bg">
+        <div class="search-header">
+          <img class="search-icon" src="icons/resources/resources-icon-1.png">
+          <input type="search" class="search-bar" placeholder="Search Twitter">
+      </div>
+      </div>
   
-      <section class="news"></section>
+      <section class="news-container">
+        <div class="news-header">What's happening</div>
+        <div class="article-container">
+          <div class="article-contents">
+            <div class="article-info"> NCAA Football &#183; Starts at 4:30PM</div>
+            <div class="article-title">Florida at Florida State</div>
+          </div>
+          <img class="article-preview" src="news/news-preview-1.jpeg">
+        </div>
+
+        <div class="article-container">
+          <div class="article-contents">
+            <div class="article-info"> Bad News &#183; So sad</div>
+            <div class="article-title">Bad news, only read if you want to be sad</div>
+          </div>
+          <img class="article-preview" src="news/news-preview-2.jpeg">
+        </div>
+        
+        <div class="article-container">
+          <div class="article-contents">
+            <div class="article-info"> Sick Art &#183; Zetta Design Lab</div>
+            <div class="article-title">3D Art</div>
+          </div>
+          <img class="article-preview" src="news/news-preview-3.png">
+        </div>
+        
+
+      </section>
+      
       <section class="suggested"></section>
     </div>
 
